@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'personal';
+  src: url('../fonts/Super\ Toast\ Personal\ Use.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'kopi';
+  src: url('../fonts/Teh\ And\ Kopi.ttf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+body {
+  background-color: rgb(140 69 210);
+}
+
+header {
+  background-color: rgb(154 124 53);
+}
+
+header h1 {
+  font-family: 'personal';
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+div {
+  display: inline-block;
+}
+
+.dev, .ficha, .contato {
+  margin-right: 10px;
+  font-family: 'kopi';
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.dev:hover, .ficha:hover, .contato:hover {
+  color: rgb(231, 231, 231);
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+main {
+  background-color: rgb(202 215 202);
+  width: 750px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(171 111 62 / 68%);
+}
+
+main h1 {
+  font-family: 'personal';
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  font-size: 60px;
+}
+
+strong {
+  color:#4b3605;
+  text-decoration: underline;
+}
+
+main p {
+  text-indent: 20px;
+  font-family: 'kopi';
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: #baa063;
+  color: rgb(0 0 0);
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 650px;
+  margin-right: auto;
+  font-size: 25px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 145);
+  color: rgb(199, 199, 199);
+}

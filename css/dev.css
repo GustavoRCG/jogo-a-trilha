@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'personal';
+  src: url('../fonts/Super\ Toast\ Personal\ Use.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'kopi';
+  src: url('../fonts/Teh\ And\ Kopi.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'gatha';
+    src: url('../fonts/ZTGatha-SemiBold.otf') format('opentype'), url('../fonts/ZTGatha-SemiBold.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: rgb(140 69 210);
+}
+  
+header {
+    background-color: rgb(154 124 53);
+}
+
+header h1 {
+    font-family: 'personal';
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+  
+div {
+    display: inline-block;
+}
+  
+.dev, .ficha, .contato {
+    margin-right: 10px;
+    font-family: 'kopi';
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+  
+.dev:hover, .ficha:hover, .contato:hover {
+    color: rgb(231, 231, 231);
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.back {
+    margin-top: 20px;
+    margin-left: 700px;
+    width: 50px;
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(46, 46, 252, 0.678);
+}
+
+p {
+    font-family: 'gatha';
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 30px;
+}
+
+main h1 {
+    font-family: 'personal';
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
